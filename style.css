@@ -1,0 +1,74 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  border: 1px solid #dadada;
+  padding: 20px 24px;
+  gap: 16px;
+}
+.head-form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-form {
+  display: flex;
+  flex-direction: column;
+}
+.main-form1 {
+  display: flex;
+  gap: 40px;
+}
+
+.input {
+  height: 36px;
+  padding: 0 16px;
+  width: 200px;
+}
+.gender {
+}
+.main-form2 {
+  display: flex;
+  gap: 40px;
+}
+.main-form3 {
+  display: flex;
+  gap: 40px;
+}
+.address {
+}
+.button {
+  display: flex;
+  justify-content: right;
+  gap: 8px;
+}
+
+.btn-primary {
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+
+  cursor: pointer;
+  border: 1px solid #dadada;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.btn-secondary {
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+
+  cursor: pointer;
+  border: 1px solid #dadada;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.inputspecial {
+  height: 36px;
+  padding: 0 16px;
+  width: 95%;
+}
+
+

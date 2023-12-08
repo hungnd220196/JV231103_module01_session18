@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="heading">DOM event</h1>
+    <ul class="list-item1">
+      <li onclick="getItem1()" class="item">Item1</li>
+      <li ondblclick="getItem2()" class="item">Item2</li>
+      <li class="item">Item3</li>
+    </ul>
+    <ul class="list-item2">
+      <li class="item">Item1</li>
+      <li class="item">Item2</li>
+      <li class="item">Item3</li>
+    </ul>
+
+    <!-- <input type="text" /> -->
+    <!-- <input type="radio" /> -->
+    <!-- <input type="date" /> -->
+
+    <button id="btnSubmit">Submit</button>
+    <input type="text" placeholder="mời bạn nhập email" id="emailInput" />
+
+    <input type="text" placeholder="mời bạn nhập tên" id="InputValue" />
+
+    <input value="nam" checked name="gender" type="radio" />Nam
+    <input value="nữ" name="gender" type="radio" />nữ
+    <input value="khác" name="gender" type="radio" />Khác
+    <button id="btnSave">Save</button>
+
+    <select name="" id="country">
+      <option value="">-- mời bạn nhập</option>
+      <option value="Hà nội">Hà nội</option>
+      <option value="Ninh bình">Ninh Bình</option>
+      <option value="Nam định">Nam Định</option>
+    </select>
+
+    <input value="di choi" type="checkbox" />đi chơi
+    <input value="mua sam" type="checkbox" />mua sắm
+    <input value="da bong" type="checkbox" />đá bóng
+    <input value="xem phim" type="checkbox" />xem phim
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+-DOM : document object model
+
+-document là đối tượng lớn nhất nó quản lý tất cả các thành phần có bên trong trang web
+
+-Nó gồm 3 thành phần chính:
+
++element: thường là cá thẻ html, head,body,h1,h2,...
+
++attribute (thuộc tính): src,alt,class,id...
+
++text: là những phần văn bản nằm bên trong thẻ element
+
+-Các cách để truy xuất các phần tử trong DOM
+  +truy xuất theo id : 
+     ++ nó sẽ trả về 1 đối tượng chứa tất cả các thông tin của element đó
+     ++ khi dùng id để truy xuất nếu có id trùng nhau thì lấy cái đầu
+
+  + truy xuất theo class
+      ++ nó sẽ trả về 1 một HTMl Colection có bản chất giống mảng.(sự khácnhau là mảng có thể sử dụng các phương thức như pop push, shift,..còn html thì k thể)
+      ++nó sẽ trả về các phần tử có class trùng 
+   +có 2 cách để bắt sự kiên trong DOM
+    c1: khai báo sự kiện ở thẻ mở trong HTML và gọi đến 1 hàm trong file js
+       (cách 1 hay sử dụng trong các hàm ít logic: ví dụ hàm dùng để ẩn hiện)
+
+    c2:  bước 1 đặt selector cho element(id, class)
+          bước 2 sử dụng iến vừa lấy ra từ b2 và gọi đến sự kiện addEventListener
